@@ -1,0 +1,85 @@
+/*
+normal styling is applied here using flexboxes from using tables and buttons
+*/
+html{
+    background-color: cornsilk;
+}
+table{
+    display: flex;
+    flex-direction: row;
+    border: 10px dashed black;
+    gap: 50px;
+    justify-content:space-evenly;
+    margin-bottom: 10px;
+}
+th{
+    border: 10px solid darkblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    align-items: stretch;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+td{
+    border: 10px solid darkblue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4; 
+    font-size: 200%;
+    gap: 100px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+#field1,#td1{
+    background-color: purple;
+    color: aliceblue;
+}
+#field2,#td2{
+    background-color: lightskyblue;
+    color: black;
+}
+#field3,#td3{
+    background-color:lightgreen;
+    color: black;
+}
+#field4,#td4{
+    background-color:orange;
+    color: black;
+}
+#field5,#td5{
+    background-color: pink;
+    color: black;
+}
+h1{
+    font-size: 600%;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0;
+}
+#field1,#field2,#field3,#field4,#field5{
+    font-size: 150%;
+}
+#submit{
+    background-color: yellow;
+    color: black;
+    font-size: 200%;
+    margin-left: 25%;
+    margin-right: 5%;
+}
+#randomstory{
+    background-color: red;
+    color: aliceblue;
+    font-size: 200%;
+    margin-right: 20%;
+
+}
+#Output{
+    background-color:mintcream;
+    color: black;
+    font-size: 200%;
+    text-align: center;
+    margin-inline: 15%;
+}
